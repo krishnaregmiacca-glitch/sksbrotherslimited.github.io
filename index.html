@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKS Brothers Limited</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+        }
+
+        header {
+            background: #020617;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #38bdf8;
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 12px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #2563eb, #06b6d4);
+        }
+
+        .hero h2 {
+            font-size: 40px;
+        }
+
+        .card {
+            display: inline-block;
+            width: 260px;
+            background: #1e293b;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        footer {
+            background: #020617;
+            padding: 20px;
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: #38bdf8;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0ea5e9;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🏢 SKS Brothers Limited</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h2>Welcome to SKS Brothers Limited</h2>
+    <p>Your trusted partner for quality and reliability.</p>
+    <button onclick="welcome()">Learn More</button>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        SKS Brothers Limited is dedicated to delivering high-quality services 
+        and building strong relationships with our clients.
+        <br><br>
+        We focus on innovation, efficiency, and customer satisfaction.
+    </p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+
+    <div class="card">
+        <h3>📦 Trading</h3>
+        <p>Reliable and efficient trading solutions.</p>
+    </div>
+
+    <div class="card">
+        <h3>🏗️ Projects</h3>
+        <p>Professional project management and delivery.</p>
+    </div>
+
+    <div class="card">
+        <h3>💼 Consulting</h3>
+        <p>Expert advice to grow your business.</p>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@sksbrothers.com</p>
+    <p>Phone: +44 123 456 7890</p>
+
+    <button onclick="contact()">Send Message</button>
+</section>
+
+<footer>
+    <p>© 2026 SKS Brothers Limited | All Rights Reserved</p>
+</footer>
+
+<script>
+function welcome() {
+    alert("Welcome to SKS Brothers Limited!");
+}
+
+function contact() {
+    alert("Thank you! We will get back to you soon.");
+}
+</script>
+
+</body>
+</html>
